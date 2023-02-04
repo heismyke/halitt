@@ -2,7 +2,7 @@ import React from 'react'
 
 const Subheading = () => {
   return (
-    <div className='row bg-white d-flex justify-content-center flex-md-row flex-column'>
+    <div className='row bg-white d-flex justify-content-center flex-md-row flex-column' data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">
         <div className='col-12 col-md-4 bg-none pt-5 text-center text-md-start'>
           <h1>About the project</h1>
         </div>
