@@ -1,31 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC:wght@400;700;900&display=swap');
 
-.halithero{
-    font-size: 50px;
-}
-.hero{
-    width: 100%;
-    height: 500px;
-    background-color: red;
- }
- .heroText{
-    width: 100%;
-    height: 100px;
-    background-color: yellow;
 
- }
- .heroImage{
-    height: 400px;
-    width: 100%;
-    background-color: purple;
- }
-  .heroImage2{
-        background-image: url(./Heroimages/heroTwo.jpeg);
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-       
-     }
 @media (min-width:768px) {
     nav{
         font-family: 'Playfair Display SC', serif;
@@ -33,14 +8,43 @@
       body{
         font-family: 'Playfair Display SC', serif;
       }
-      .halithero{
-          font-size: 50px;
-      }
       .hero{
         width: 100%;
-        height: 800px;
-        background-color: red;
-     }
+        height: 750px;
+        background-color: none;
+       }
+    
+       .heroText{
+        width: 100%;
+        height: 230px;
+        background-color: none;
+        padding-top: 40px;
+       }
+       .heroImage{
+        width: 100%;
+        height: 500px;
+        background-color: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       }
+       .mainImg{
+        width: 100%;
+        height: 400px;
+        background-color: none;
+       }
+       .mainImage{
+        background-image: url(./Heroimages/hero3.jpeg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        width: 100%;
+        margin-top: 0;
+        margin-left: 0;
+        
+        
+       }
+    
 }
 @media (min-width:992px) {
     nav{
@@ -50,27 +54,162 @@
         font-family: 'Playfair Display SC', serif;
         overflow-x: hidden;
       }
-     .hero{
+    
+      .hero{
         width: 100%;
         height: 800px;
-        background-color: red;
-     }
-     .heroText{
+        background-color: none;
+       }
+    
+       .heroText{
         width: 100%;
-        height: 250px;
-        background-color: yellow;
-
-     }
-     .heroImage{
-        height: 550px;
+        height: 220px;
+        background-color: white;
+        padding-top: 40px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+       }
+       .heroText h1{
+        font-size: 100px;
+       }
+       .heroImage{
         width: 100%;
-        background-color: purple;
-     }
-     .heroImage2{
-        background-image: url(./Heroimages/heroTwo.jpeg);
-        background-position: center;
+        height: 700px;
+        background-color: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       }
+       .mainImg{
+        width: 100%;
+        height: 700px;
+        background-color: none;
+       }
+       .mainImage{
+        background-image: url(./Heroimages/hero3.jpeg);
         background-repeat: no-repeat;
+        background-position: center;
         background-size: cover;
+        width: 100%;
+        margin-top: 0;
+        margin-left: 0;
         background-attachment: fixed;
-     }
+        
+        
+       }
 }
+@media (max-width: 1230px) {
+   body{
+    background-color: none;
+   }
+  }
+  @media (max-width: 1100px) {
+   body{
+    background-color: none;
+   }
+  }
+  @media (max-width: 900px) {
+  
+.hero{
+    width: 100%;
+    height: 750px;
+    background-color:none;
+   }
+
+   .heroText{
+    width: 100%;
+    height: 220px;
+    background-color: none;
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+
+   }
+   .heroText h1{
+    font-size: 80px;
+   }
+   .heroText p{
+    font-size: 12px;
+   }
+   .heroImage{
+    width: 100%;
+    height: calc(100vh - 230px);
+    background-color: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+   .mainImg{
+    width: 90%;
+    height: 500px;
+    background-color: none;
+   }
+   .mainImage{
+    background-image: url(./Heroimages/hero5.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 97%;
+    margin-top: 5px;
+    margin-left: 5px;
+    height: 500px;
+    
+    
+   }
+  }
+
+  @media (max-width: 380px){
+  
+.hero{
+    width: 100%;
+    height: 100vh;
+    background-color: none;
+   }
+
+   .heroText{
+    width: 100%;
+    height: 220px;
+    background-color: none;
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+
+   }
+   .heroText h1{
+    font-size: 80px;
+   }
+   .heroText p{
+    font-size: 12px;
+   }
+   .heroImage{
+    width: 100%;
+    height: calc(100vh - 230px);
+    background-color: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+   .mainImg{
+    width: 90%;
+    height: 500px;
+    background-color: none;
+   }
+   .mainImage{
+    background-image: url(./Heroimages/hero5.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 97%;
+    margin-top: 5px;
+    margin-left: 5px;
+   
+    
+    
+   }
+  }

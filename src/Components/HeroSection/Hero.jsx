@@ -3,14 +3,15 @@ import './hero.css'
 import heromages from '../HeroSection/Heroimages/heroTwo.jpeg'
 const Hero = () => {
   return (
-   <div className='hero'>
-        <div className='heroText'>
-
-        </div>
-        <div className='heroImage heroImage2'>
-
-        </div>
-   </div>
+  <div className='hero'>
+    <div className='heroText'>
+        <h1>HALIT</h1>
+        <p> Halit apartment,  a perfect retreat for short stays</p>
+    </div>
+    <div className='heroImage mainImage'>
+    
+    </div>
+  </div>
   )
 }
 
