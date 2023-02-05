@@ -6,4 +6,5 @@ nav{
 }
 body{
   font-family: 'Playfair Display SC', serif;
+  overflow-x: hidden;
 }

@@ -1,0 +1,126 @@
+.DoubleImage{
+    width: 100%;
+    height: 700px;
+    background-color: none;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px ;
+  
+}
+
+.subimgOne{
+    width: 100%;
+    height: 300px;
+    background-color: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.subimgTwo{
+    width: 100%;
+    height: 300px;
+    background-color: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.subimg{
+    background-image: url(./SubheadImages/subheadimage1.JPG);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+.subimgg{
+    background-image: url(./SubheadImages/subheadImage2.JPG);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.subimgoneChild{
+    width: 95%;
+    height: 280px;
+    background-color: none;
+}
+
+@media (min-width: 768px) {
+    .DoubleImage{
+        width: 100%;
+        height: 1100px;
+        background-color: white;
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .subimgOne{
+        width: 80%;
+        height: 500px;
+        background-color: none;
+    }
+    .subimgTwo{
+        width: 80%;
+        height: 500px;
+        background-color: none;
+    }
+    .subimg{
+        background-image: url(./SubheadImages/subheadimage1.JPG);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .subimgg{
+        background-image: url(./SubheadImages/subheadImage2.JPG);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .subimgoneChild{
+        width: 100%;
+        height: 500px;
+        background-color: none;
+    }
+  
+}
+@media (min-width:992px){
+    .DoubleImage{
+        width: 100%;
+        height: 450px;
+        background-color: none;
+        margin-top: 100px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+    }
+    .subimgOne{
+        width: 30%;
+        height: 450px;
+        background-color: none;
+    }
+    .subimgTwo{
+        width: 50%;
+        height: 450px;
+        background-color: none;
+    }
+    .subimg{
+        background-image: url(./SubheadImages/subheadimage1.JPG);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .subimgg{
+        background-image: url(./SubheadImages/subheadImage2.JPG);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .subimgoneChild{
+        width: 100%;
+        height: 450px;
+        background-color: none;
+    }
+}
