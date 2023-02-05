@@ -17,15 +17,15 @@ const Subheading = () => {
             </div>
             <div className='col-md-12'>
                 <div className="row border-top-0 border-dark mainRow">
-                    <div className="col-md-4 py-5 py-md-3" data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">
+                    <div className="col-md-4 py-3 py-md-3" data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">
                         <h1>40</h1>
                         <p>Apartment</p>
                     </div>
-                    <div className="col-md-4 py-5 py-md-3" data-aos="fade-up" data-aos-duration="1500" data-aos-once="true">
+                    <div className="col-md-4 py-3 py-md-3" data-aos="fade-up" data-aos-duration="1500" data-aos-once="true">
                     <h1>10</h1>
                         <p>Penthouse</p>
                     </div>
-                    <div className="col-md-4 py-5 py-md-3" data-aos="fade-up" data-aos-duration="2000" data-aos-once="true">
+                    <div className="col-md-4 py-3 py-md-3" data-aos="fade-up" data-aos-duration="2000" data-aos-once="true">
                     <h1>10</h1>
                         <p>Floor</p>
                     </div>
