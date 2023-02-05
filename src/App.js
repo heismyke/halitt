@@ -5,7 +5,7 @@ import Navigation from '././Components/NavigationBar/Nav'
 import Herosection from '././Components/HeroSection/Hero.jsx'
 import Subheader from '././Components/Subhead/Subheading'
 import SubheadTwo from '././Components/SubheadTwo/SubheadingTwo'
-
+import Location from './Components/LocateUs/Location';
 function App() {
   return (
     <div>
@@ -13,6 +13,7 @@ function App() {
        <Herosection />
        <Subheader />
        <SubheadTwo />
+       <Location />
     </div>
   );
 }
