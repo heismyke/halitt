@@ -16,16 +16,16 @@ const Subheading = () => {
             <p className='p-md-0 p-2 fs-5'> Its influence quickly swept America at the beginning of the 19th century, formed a way of life of a period characterized by rapid economic growth, the development of technology, mechanical engineering and construction of cult famous art structures, as well as the development of film art.</p>
             </div>
             <div className='col-md-12'>
-                <div className="row border-top border-dark">
-                    <div className="col-md-4">
+                <div className="row border-top-0 border-dark mainRow">
+                    <div className="col-md-4 py-5 py-md-3" data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">
                         <h1>40</h1>
                         <p>Apartment</p>
                     </div>
-                    <div className="col-md-4">
+                    <div className="col-md-4 py-5 py-md-3" data-aos="fade-up" data-aos-duration="1500" data-aos-once="true">
                     <h1>10</h1>
                         <p>Penthouse</p>
                     </div>
-                    <div className="col-md-4">
+                    <div className="col-md-4 py-5 py-md-3" data-aos="fade-up" data-aos-duration="2000" data-aos-once="true">
                     <h1>10</h1>
                         <p>Floor</p>
                     </div>
