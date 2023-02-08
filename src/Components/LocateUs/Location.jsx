@@ -2,7 +2,7 @@ import React from 'react'
 import './Locate.css'
 const Location = () => {
   return (
-    <div className='container-fluid mt-md-5'>
+    <div className='container-fluid mt-md-5 '>
         <div className="row loc d-flex justify-content-center align-items-center flex-column flex-lg-row pb-5">
             <div className="col-12 col-lg-4 bg-none  py-2 py-lg-5">
                 <div className="row py-2 py-lg-5">
