@@ -6,7 +6,7 @@ import singleBed   from './RentsImages/singleroomtwo.JPG'
 
 const Recents = () => {
   return (
-    <div className='container-fluid recents text-white py-5'>
+    <div className='container-fluid recents text-white py-5' data-aos="fade-left" data-aos-duration="1000" data-aos-once="true">
         <div className="row d-flex justify-content-center align-items-center gap-lg-5">
             <div className="col-lg-4 bg-none mb-l-5 rentContainer d-flex justify-content-lg-start align-items-lg-start justify-content-center align-items-center">
                 <h1 className='pb-lg-5'>Available Apartments</h1>

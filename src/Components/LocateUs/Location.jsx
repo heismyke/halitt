@@ -34,7 +34,7 @@ const Location = () => {
                         <p>The ideal location in a quiet alley provides a feeling of strawberry and privacy to the owners of the Moonlight house.</p>
                     </div>
                 </div>
-                <div className="col-12 bg-secondary" data-aos="fade-up" data-aos-duration="2000" data-aos-once="true">
+                <div className="col-12 bg-secondary" data-aos="fade-left" data-aos-duration="1000" data-aos-once="true">
                 <div id="map-container-google-1" className="z-depth-1-half map-container map" >
                 <iframe src="https://maps.google.com/maps?q=manhatan&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" allowfullscreen></iframe>
 </div>
