@@ -6,12 +6,12 @@ import singleBed   from './RentsImages/singleroomtwo.JPG'
 
 const Recents = () => {
   return (
-    <div className='container-fluid recents text-white py-5' data-aos="fade-left" data-aos-duration="1000" data-aos-once="true">
+    <div className='container-fluid recents text-white py-5'>
         <div className="row d-flex justify-content-center align-items-center gap-lg-5">
-            <div className="col-lg-4 bg-none mb-l-5 rentContainer d-flex justify-content-lg-start align-items-lg-start justify-content-center align-items-center">
+            <div className="col-lg-4 bg-none mb-l-5 rentContainer d-flex justify-content-lg-start align-items-lg-start justify-content-center align-items-center"  data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">
                 <h1 className='pb-lg-5'>Available Apartments</h1>
             </div>
-            <div className="col-lg-6 bg-none mt-lg-5 pt-lg-5  " data-aos="fade-left" data-aos-duration="1000" data-aos-once="true">
+            <div className="col-lg-6 bg-none mt-lg-5 pt-lg-5  " data-aos="fade-up" data-aos-duration="1500" data-aos-once="true">
                 <h3 className='pt-5'>We offer the best deals in property renting,Halit secures your property before and after purchase.</h3>
                 <h2 className='pt-5'>01- one bedroom</h2>
                 <p className='pt-2'>One bedroom apartment located in kubwa Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla vitae exercitationem magni impedit sit itaque amet sapiente aliquam modi, ad, doloremque, neque beatae ullam! Fuga repudiandae ut aut dignissimos pariatur!</p>
