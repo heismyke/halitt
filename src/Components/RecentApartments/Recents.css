@@ -1,0 +1,36 @@
+.recents{
+    background-color: #212121;
+}
+.image{
+    
+    width: 100%;
+}
+.rentContainer{
+    height: 100px;
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .recents{
+        background-color: #212121;
+    }
+    .image{
+        
+        width: 70%;
+    }
+    .rentContainer{
+        height: 100px;
+    }
+    
+}
+@media screen and (min-width:992px){
+    .recents{
+        background-color: #212121;
+    }
+    .image{
+        height: 350px;
+        width: 90%;
+    }
+    .rentContainer{
+        height: 1190px;
+    }
+    
+}
