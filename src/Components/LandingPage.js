@@ -4,6 +4,7 @@ import Locate from './LocateUs/Location'
 import Recents from './RecentApartments/Recents'
 import Subhead from './Subhead/Subheading'
 import SubheadTwo from './SubheadTwo/SubheadingTwo'
+import Tesify from './Testimonals/Tesify';
 
 
 const LandingPage = () => {
@@ -14,6 +15,7 @@ const LandingPage = () => {
         <SubheadTwo />
         <Locate />
         <Recents />
+        <Tesify />
         
         
 

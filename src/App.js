@@ -7,7 +7,6 @@ import MoreInfo from './Components/RecentApartments/MoreInfo';
 import MoreInfo2 from './Components/RecentApartments/MoreinfoTwo';
 import {
   BrowserRouter as Router, Routes, Route
-
 }from "react-router-dom";
 
 function App() {
@@ -18,8 +17,7 @@ function App() {
       <Routes>
           <Route path = '/' element = {<LandingPage />}/>
           <Route path = '/more' element = {<MoreInfo />}/>
-          <Route path = '/more2' element = {<MoreInfo2 />}/>
-          
+          <Route path = '/more2' element = {<MoreInfo2 />}/>   
       </Routes>
       </Router>
        
