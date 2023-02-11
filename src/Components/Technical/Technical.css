@@ -1,0 +1,180 @@
+.technicalArea{
+    width: 100%;
+    height: 1100px;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    margin-top: 10px;
+
+}
+.innerTechnicalArea{
+        width: 95%;
+        height: 950px;
+        background-color: none;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .technicalCharacteristicsDiv{
+        width: 100%;
+        height: 120px;
+        background-color: none;
+        text-align: center;
+    }
+    .characteristics{
+        width: 100%;
+        height: 850px;
+        background-color: none;
+    }
+
+    .forEach{
+        width: 100%;
+        border-top: 1px solid #d0d0d2;
+        border-bottom: 1px solid #d0d0d2;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 5px;
+        padding-right: 5px;
+
+    }
+    .forEach:nth-child(1){
+        border-bottom: 0;
+        margin-top: 0px;    
+    }
+    .forEach:nth-child(2){
+        border-bottom: 0;    
+    }
+    .forEach:nth-child(3){
+        border-bottom: 0;    
+    }
+    .forEach:nth-child(4){
+        border-bottom: 0;    
+    }
+    .forEach:nth-child(5){
+        border-bottom: 0;    
+    }
+    .forEach:nth-child(6){
+        border-bottom: 0;    
+    }
+    .forEach:nth-child(7){
+        border-bottom: 0;    
+    }
+    .forEach:nth-child(8){
+        border-bottom: 0;    
+    }
+   
+@media (min-width: 768px) {
+    .technicalArea{
+        width: 100%;
+        height: 1200px;
+        background-color: #f0f0f0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .innerTechnicalArea{
+        width: 95%;
+        height: 1020px;
+        background-color: none;
+        display: flex;
+        flex-direction:column ;
+    }
+    .technicalCharacteristicsDiv{
+        width: 100%;
+        height: 100px;
+        background-color: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .technicalCharacteristicsDiv p{
+        width: 90%;
+    }
+    .characteristics{
+        width: 100%;
+        height: 900px;
+        background-color: none;
+    }
+}
+@media (min-width: 992px){
+    .technicalArea{
+        width: 100%;
+        height: 800px;
+        background-color: #f0f0f0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 100px;
+        margin-top: 50px;
+    }
+    .innerTechnicalArea{
+        width: 80%;
+        height: 800px;
+        background-color: none;
+        display: flex;
+        flex-direction: row;
+    }
+    .technicalCharacteristicsDiv{
+        width: 30%;
+        height: 800px;
+        background-color: none;
+        display: flex;
+        justify-content: start;
+        align-items: start;
+        flex-direction: column;
+        text-align: start;
+    }
+    .characteristics{
+        width: 70%;
+        height: 800px;
+        background-color: none;
+    }
+    .forEach{
+        width: 100%;
+        border-top: 1px solid #d0d0d2;
+        border-bottom: 1px solid #d0d0d2;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 5px;
+        padding-right: 5px;
+
+    }
+    .forEach:nth-child(1){
+        border-bottom: 0;
+        margin-top: 100px;    
+    }
+    .forEach:nth-child(2){
+        border-bottom: 0;    
+    }
+    .forEach:nth-child(3){
+        border-bottom: 0;    
+    }
+    .forEach:nth-child(4){
+        border-bottom: 0;    
+    }
+    .forEach:nth-child(5){
+        border-bottom: 0;    
+    }
+    .forEach:nth-child(6){
+        border-bottom: 0;    
+    }
+    .forEach:nth-child(7){
+        border-bottom: 0;    
+    }
+    .forEach:nth-child(8){
+        border-bottom: 0;    
+    }
+   
+}
