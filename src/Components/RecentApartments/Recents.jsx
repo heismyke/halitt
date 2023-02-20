@@ -25,7 +25,7 @@ const Recents = () => {
                 <div className='mt-3 d-flex justify-content-md-center align-items-md-center  justify-content-lg-center align-items-lg-center'>
                 <img src={onebed} alt="onebedroom"  className='img-fluid image'/>
                 </div>
-                <div className="col-lg-12 bg-none mt-lg-0 pt-lg-5 ">
+                <div className="col-lg-12 bg-none mt-lg-0 pt-lg-5 " data-aos="fade-up" data-aos-duration="2000" data-aos-once="true">
                 <h2 className='pt-5'>02- Single bedroom</h2>
                 <p className='pt-2'>Single bedroom apartment located in kubwa Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla vitae exercitationem magni impedit sit itaque amet sapiente aliquam modi, ad, doloremque, neque beatae ullam! Fuga repudiandae ut aut dignissimos pariatur!</p>
                 <div className='d-flex justify-content-start align-items-center gap-3'>
