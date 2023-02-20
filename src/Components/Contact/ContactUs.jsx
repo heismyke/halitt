@@ -20,9 +20,9 @@ const ContactUs = () => {
                     <input type="text"  placeholder='Subject'/>
                 </div>
                 </div>
-                <div className='py-3'>
+                <div className='py-3 d-flex justify-content-center align-items-center'>
                   
-                    <textarea name="message" id="message" cols="31" rows="10" placeholder='message'></textarea>
+                    <textarea name="message" id="message" cols="29" rows="10" placeholder='message'></textarea>
                 </div>
                 <div className='py-2'>
                     <input type="submit"  value="Submit" className='bg-dark text-white p-2 px-5'/>
