@@ -4,7 +4,7 @@ import './Contact.css'
 
 const ContactUs = () => {
   return (
-    <div className='container-fluid bg-white p-5'>
+    <div className='container-fluid bg-white p-5' data-aos="fade-up" data-aos-duration="3000" data-aos-once="true">
         <div className="row">
             <div className="col-lg-4  d-flex justify-content-lg-center align-items-lg-center flex-column p-lg-5">
                 <div className='d-flex justify-content-center align-items-center flex-column'><h2>CONTACT US</h2></div>
@@ -22,7 +22,7 @@ const ContactUs = () => {
                 </div>
                 <div className='py-3 d-flex justify-content-center align-items-center'>
                   
-                    <textarea name="message" id="message" cols="29" rows="10" placeholder='message'></textarea>
+                    <textarea name="message" id="message" cols="29" rows="5" placeholder='message'></textarea>
                 </div>
                 <div className='py-2'>
                     <input type="submit"  value="Submit" className='bg-dark text-white p-2 px-5'/>
