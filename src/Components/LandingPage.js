@@ -6,7 +6,7 @@ import Subhead from './Subhead/Subheading'
 import SubheadTwo from './SubheadTwo/SubheadingTwo'
 import Tesify from './Testimonals/Tesify';
 import TechnicalCharacteristics from './Technical/TechnicalCharacteristics';
-
+import ContactUs from './Contact/ContactUs';
 
 const LandingPage = () => {
   return (
@@ -18,6 +18,7 @@ const LandingPage = () => {
         <Recents />
         <Tesify />
         <TechnicalCharacteristics />
+        <ContactUs />
         
 
     </div>
