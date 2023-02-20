@@ -6,23 +6,23 @@ const ContactUs = () => {
   return (
     <div className='container-fluid bg-white p-5'>
         <div className="row">
-            <div className="col-lg-4  d-flex justify-content-center align-items-center flex-column p-5">
-                <div><h2>CONTACT US</h2></div>
+            <div className="col-lg-4  d-flex justify-content-lg-center align-items-lg-center flex-column p-lg-5">
+                <div className='d-flex justify-content-center align-items-center flex-column'><h2>CONTACT US</h2></div>
                 <div>
                 <div className='d-flex flex-column justify-content-center align-items-center col-6'>
-                <div className='py-2'>
+                <div className='py-3'>
                     <input type="text"  placeholder='Fullname'/>
                 </div>
-                <div className='py-2'>
+                <div className='py-3'>
                     <input type="text"  placeholder='Email'/>
                 </div>
-                <div className='py-2'>
+                <div className='py-3'>
                     <input type="text"  placeholder='Subject'/>
                 </div>
                 </div>
-                <div className='py-2'>
+                <div className='py-3'>
                   
-                    <textarea name="message" id="message" cols="30" rows="10" placeholder='message'></textarea>
+                    <textarea name="message" id="message" cols="31" rows="10" placeholder='message'></textarea>
                 </div>
                 <div className='py-2'>
                     <input type="submit"  value="Submit" className='bg-dark text-white p-2 px-5'/>
